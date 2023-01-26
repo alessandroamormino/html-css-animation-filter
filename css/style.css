@@ -58,6 +58,12 @@
 .ex-6-img:hover{
     filter: grayscale(1);
 }
+.ex-7-img{
+    transition: all 1s ease-out;
+}
+.ex-7-img:hover{
+    filter: blur(5px) brightness(70%);
+}
 
 .ex-9-img {
     margin: 50px 100px;
