@@ -81,8 +81,17 @@
     border-radius: 10px;
     transform: scale(1.2);
 }
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 2s linear infinite;
 }
 .ex-11-icon {
     font-size: 60px;
